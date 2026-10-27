@@ -34,7 +34,7 @@ namespace HTTP_Task.Services
 
     public class WeatherService
     {
-        private readonly string MyApiKey = "APIKEY";
+        private readonly string MyApiKey = "d3ee109866e04924af311401262710";
         private readonly string url = "http://api.weatherapi.com/v1/current.json";
         private readonly HttpClient httpClient = new HttpClient();
 
